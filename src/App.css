@@ -3,3 +3,64 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./images/photo_Andréa_1.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Logo {
+  height: 85px;
+}
+
+h1 {
+  color: #a69814;
+  text-shadow: 1px 1px #2a2626;
+  margin: 0;
+  font-size: 1.8em;
+  text-align: center;
+  font-family: "Tangerine", cursive;
+}
+
+.page_link {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.redirect {
+  display: inline-block;
+  text-align: center;
+  width: 55px;
+  text-decoration: none;
+  color: #2a2626;
+  border: 1px double #a69814;
+  border-radius: 10px;
+  background-color: #a69814;
+}
+
+.redirect:hover {
+  background-color: #2a2626;
+  color: #a69814;
+  box-shadow: 0px 0px 4px 2px #2a2626;
+  transition: 0.5s;
+}
+
+footer {
+  border: 1px double #a69814;
+  background-color: #2a2626;
+  border-radius: 10px;
+  padding: 0 10px;
+  margin-top: 5px;
+}
+
+.para_footer {
+  color: #a69814;
+  margin: 0;
+  font-size: 0.8em;
+}
