@@ -11,9 +11,9 @@ function App() {
           alt="logo de a&f coifure"
         />
         <h1>A & F Coiffure à domicile</h1>
+        <hr />
       </header>
       <main>
-        <Outlet />
         <div className="page_link">
           <Link className="redirect" to="/accueil">
             Accueil
@@ -25,12 +25,15 @@ function App() {
             Tarifs
           </Link>
         </div>
+        <Outlet />
       </main>
-      <footer>
-        <p className="para_footer">
-          &copy; 2023 _ Andréa coiff _ Bodereau Cédric
-        </p>
-      </footer>
+      <div className="center-footer">
+        <footer>
+          <p className="para_footer">
+            &copy; 2023 _ Andréa coiff _ Bodereau Cédric
+          </p>
+        </footer>
+      </div>
     </>
   );
 }

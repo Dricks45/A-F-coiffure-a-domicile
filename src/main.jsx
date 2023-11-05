@@ -6,7 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import Tarifs from "./pages/tarifs/Tarifs.jsx";
 import Galerie from "./pages/galerie/Galerie.jsx";
-import Accueil from "./pages/Accueil/Accueil";
+import Accueil from "./pages/accueil/Accueil.jsx";
 
 const router = createBrowserRouter([
   {

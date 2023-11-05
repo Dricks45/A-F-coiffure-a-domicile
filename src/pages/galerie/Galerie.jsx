@@ -2,7 +2,7 @@ import "./galerie.scss";
 
 function Galerie() {
   return (
-    <section>
+    <section className="outlet">
       <p className="galerie">galerie</p>
     </section>
   );

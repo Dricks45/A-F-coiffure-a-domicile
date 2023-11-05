@@ -1,3 +1,56 @@
-.accueil {
-  color: blueviolet;
+@import "../../assets/variables";
+
+.outlet {
+  min-height: calc(100vh - 200px);
+  text-align: center;
+  .text-accueil {
+    color: $blackColor;
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  .container-photo-home {
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .photo-home {
+      height: 160px;
+    }
+  }
+  .set-up-accueil {
+    height: calc(100vh - 560px);
+  }
+  .info-contact {
+    text-align: start;
+    color: $blackColor;
+    line-height: 20px;
+    .phone-accueil {
+      font-size: 14px;
+      margin: 0;
+    }
+    .phone-accueil::before {
+      content: url(../../images/16-tel.png);
+      margin: 0 5px;
+      position: relative;
+      top: 2px;
+    }
+    .redirect-link {
+      font-size: 14px;
+      text-decoration: none;
+      color: $blackColor;
+      display: block;
+    }
+    .email-accueil::before {
+      content: url(../../images/16-gmail.png);
+      margin: 0 5px;
+      position: relative;
+      top: 2px;
+    }
+    .facebook-accueil::before {
+      content: url(../../images/16-facebook.png);
+      margin: 0 5px;
+      position: relative;
+      top: 2px;
+    }
+  }
 }

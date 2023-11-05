@@ -2,7 +2,7 @@ import "./tarifs.scss";
 
 function Tarifs() {
   return (
-    <section>
+    <section className="outlet">
       <p className="tarifs">tarifs</p>
     </section>
   );
