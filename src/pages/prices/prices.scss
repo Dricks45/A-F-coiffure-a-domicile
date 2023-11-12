@@ -1,1 +1,25 @@
 @import "../../assets/variables";
+
+.title_prices {
+  font-family: "Tangerine", cursive;
+  color: $orColor;
+  text-shadow: 1px 1px $blackColor;
+  margin: 0;
+  font-size: 1.8em;
+  text-align: center;
+}
+.container_prices {
+  height: calc(100vh - 300px);
+  overflow-y: scroll;
+  border: 1px double $orColor;
+  margin: 5px;
+  padding: 25px;
+  font-size: 16px;
+  border-radius: 20px;
+  box-shadow: inset 8px 8px 20px 10px $blackColor;
+  .paragraph_prices {
+    color: $orColor;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px $blackColor;
+  }
+}
