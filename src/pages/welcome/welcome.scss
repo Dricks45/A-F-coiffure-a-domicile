@@ -3,50 +3,50 @@
 .outlet {
   min-height: calc(100vh - 200px);
   text-align: center;
-  .text-accueil {
+  .text_welcome {
     color: $blackColor;
     margin: 5px 0;
     font-size: 14px;
   }
-  .container-photo-home {
+  .container_photo_home {
     height: 280px;
     display: flex;
     align-items: center;
     justify-content: center;
-    .photo-home {
+    .photo_home {
       height: 160px;
     }
   }
-  .set-up-accueil {
+  .set_up_welcome {
     height: calc(100vh - 560px);
   }
-  .info-contact {
+  .info_contact {
     text-align: start;
     color: $blackColor;
     line-height: 20px;
-    .phone-accueil {
+    .phone_welcome {
       font-size: 14px;
       margin: 0;
     }
-    .phone-accueil::before {
+    .phone_welcome::before {
       content: url(../../images/16-tel.png);
       margin: 0 5px;
       position: relative;
       top: 2px;
     }
-    .redirect-link {
+    .redirect_link {
       font-size: 14px;
       text-decoration: none;
       color: $blackColor;
       display: block;
     }
-    .email-accueil::before {
+    .email_welcome::before {
       content: url(../../images/16-gmail.png);
       margin: 0 5px;
       position: relative;
       top: 2px;
     }
-    .facebook-accueil::before {
+    .facebook_welcome::before {
       content: url(../../images/16-facebook.png);
       margin: 0 5px;
       position: relative;

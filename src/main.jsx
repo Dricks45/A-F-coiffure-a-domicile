@@ -4,9 +4,9 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from "./App";
-import Tarifs from "./pages/tarifs/Tarifs.jsx";
-import Galerie from "./pages/galerie/Galerie.jsx";
-import Accueil from "./pages/accueil/Accueil.jsx";
+import Prices from "./pages/prices/Prices.jsx";
+import Gallery from "./pages/gallery/Gallery.jsx";
+import Welcome from "./pages/welcome/Welcome.jsx";
 
 const router = createBrowserRouter([
   {
@@ -15,15 +15,15 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/accueil",
-        element: <Accueil />,
+        element: <Welcome />,
       },
       {
         path: "/tarifs",
-        element: <Tarifs />,
+        element: <Prices />,
       },
       {
         path: "/galerie",
-        element: <Galerie />,
+        element: <Gallery />,
       },
     ],
   },
