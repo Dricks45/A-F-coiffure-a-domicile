@@ -34,7 +34,7 @@ hr {
 }
 
 .outlet {
-  min-height: calc(100vh - 195px);
+  min-height: calc(100vh - 200px);
 }
 
 .page_link {

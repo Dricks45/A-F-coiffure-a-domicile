@@ -1,8 +1,13 @@
-@import "../../assets/variables";
-
-.gallery {
-  color: yellow;
-}
-.outlet {
-  min-height: calc(100vh - 195px);
+.flex_gallery {
+  height: calc(100vh - 200px);
+  .container_gallery {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    .picture_gallery {
+      height: 110px;
+    }
+  }
 }
