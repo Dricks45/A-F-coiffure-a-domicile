@@ -1,56 +1,52 @@
 @import "../../assets/variables";
 
-.outlet {
-  min-height: calc(100vh - 200px);
-  text-align: center;
-  .text_welcome {
-    color: $blackColor;
-    margin: 5px 0;
+.text_welcome {
+  color: $blackColor;
+  margin: 5px 0;
+  font-size: 14px;
+}
+.container_photo_home {
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .photo_home {
+    height: 160px;
+  }
+}
+.set_up_welcome {
+  height: calc(100vh - 600px);
+}
+.info_contact {
+  text-align: start;
+  color: $blackColor;
+  line-height: 28px;
+  .phone_welcome {
     font-size: 14px;
+    margin: 0;
   }
-  .container_photo_home {
-    height: 280px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    .photo_home {
-      height: 160px;
-    }
+  .phone_welcome::before {
+    content: url(../../images/16-tel.png);
+    margin: 0 5px;
+    position: relative;
+    top: 2px;
   }
-  .set_up_welcome {
-    height: calc(100vh - 560px);
-  }
-  .info_contact {
-    text-align: start;
+  .redirect_link {
+    font-size: 14px;
+    text-decoration: none;
     color: $blackColor;
-    line-height: 20px;
-    .phone_welcome {
-      font-size: 14px;
-      margin: 0;
-    }
-    .phone_welcome::before {
-      content: url(../../images/16-tel.png);
-      margin: 0 5px;
-      position: relative;
-      top: 2px;
-    }
-    .redirect_link {
-      font-size: 14px;
-      text-decoration: none;
-      color: $blackColor;
-      display: block;
-    }
-    .email_welcome::before {
-      content: url(../../images/16-gmail.png);
-      margin: 0 5px;
-      position: relative;
-      top: 2px;
-    }
-    .facebook_welcome::before {
-      content: url(../../images/16-facebook.png);
-      margin: 0 5px;
-      position: relative;
-      top: 2px;
-    }
+    display: block;
+  }
+  .email_welcome::before {
+    content: url(../../images/16-gmail.png);
+    margin: 0 5px;
+    position: relative;
+    top: 2px;
+  }
+  .facebook_welcome::before {
+    content: url(../../images/16-facebook.png);
+    margin: 0 5px;
+    position: relative;
+    top: 2px;
   }
 }
