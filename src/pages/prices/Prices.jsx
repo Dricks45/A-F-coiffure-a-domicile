@@ -22,13 +22,14 @@ function Prices() {
   return (
     <section className="outlet">
       <h2 className="title_prices">Liste des Tarifs</h2>
-      <ul className="container_prices">
+      <hr />
+      <div className="container_prices">
         {data.map((item) => (
-          <li className="paragraph_prices" key={item.id}>
-            {item.prestation} - Court : {item.court}, Long : {item.long}
-          </li>
+          <p className="paragraph_prices" key={item.id}>
+            {item.prestation} = <br /> Court : {item.court}, Long : {item.long}
+          </p>
         ))}
-      </ul>
+      </div>
     </section>
   );
 }
