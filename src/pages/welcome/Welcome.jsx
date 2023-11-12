@@ -1,29 +1,29 @@
-import "./accueil.scss";
+import "./welcome.scss";
 
-function Accueil() {
+function Welcome() {
   return (
     <section className="outlet">
-      <p className="text-accueil">
+      <p className="text_welcome">
         Le plaisir de se faire coiffer, sans se déplacer !
       </p>
-      <div className="container-photo-home">
+      <div className="container_photo_home">
         <img
-          className="photo-home"
+          className="photo_home"
           src="../../src/images/photo_A_P_couve_451.jpg"
           alt=""
         />
       </div>
-      <div className="set-up-accueil"></div>
-      <article className="info-contact">
-        <p className="phone-accueil">07.82.32.11.79</p>
+      <div className="set_up_welcome"></div>
+      <article className="info_contact">
+        <p className="phone_welcome">07.82.32.11.79</p>
         <a
-          className="email-accueil redirect-link"
+          className="email_welcome redirect_link"
           href="mailto:af.coiffure45@gmail.com"
         >
           af.coiffure45@gmail.com
         </a>
         <a
-          className="facebook-accueil redirect-link"
+          className="facebook_welcome redirect_link"
           href="https://www.facebook.com/profile.php?id=100090420848243"
           target="_blank"
           rel="noreferrer"
@@ -35,4 +35,4 @@ function Accueil() {
   );
 }
 
-export default Accueil;
+export default Welcome;

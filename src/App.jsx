@@ -10,7 +10,7 @@ function App() {
           src="./src/images/A_et_F.png"
           alt="logo de a&f coifure"
         />
-        <h1>A & F Coiffure à domicile</h1>
+        <h1 className="big_title">A & F Coiffure à domicile</h1>
         <hr />
       </header>
       <main>
@@ -29,7 +29,7 @@ function App() {
       </main>
       <div className="center-footer">
         <footer>
-          <p className="para_footer">
+          <p className="paragraph_footer">
             &copy; 2023 _ Andréa coiff _ Bodereau Cédric
           </p>
         </footer>

@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import "./tarifs.scss";
+import "./prices.scss";
 
-function Tarifs() {
+function Prices() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -21,10 +21,10 @@ function Tarifs() {
 
   return (
     <section className="outlet">
-      <h1>Liste des Tarifs</h1>
-      <ul>
+      <h2 className="title_prices">Liste des Tarifs</h2>
+      <ul className="container_prices">
         {data.map((item) => (
-          <li key={item.id}>
+          <li className="paragraph_prices" key={item.id}>
             {item.prestation} - Court : {item.court}, Long : {item.long}
           </li>
         ))}
@@ -33,4 +33,4 @@ function Tarifs() {
   );
 }
 
-export default Tarifs;
+export default Prices;
