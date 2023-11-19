@@ -29,6 +29,7 @@ function Prices() {
             {item.prestation} = <br /> Court : {item.court}, Long : {item.long}
           </p>
         ))}
+        <p>Imprimer les tarifs</p>
       </div>
     </section>
   );
