@@ -6,14 +6,17 @@ function Welcome() {
       <p className="text_welcome">
         Le plaisir de se faire coiffer, sans se déplacer !
       </p>
-      <div className="container_photo_home">
-        <img
-          className="photo_home"
-          src="../../src/images/photo_A_P_couve_451.jpg"
-          alt=""
-        />
-      </div>
-      <div className="set_up_welcome"></div>
+      <article className="center_picture">
+        <div className="animation_photo">
+          <div className="container_photo_home">
+            <img
+              className="photo_home"
+              src="../../src/images/photo_A_P_couve_451.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </article>
       <article className="info_contact">
         <p className="phone_welcome">07.82.32.11.79</p>
         <a
