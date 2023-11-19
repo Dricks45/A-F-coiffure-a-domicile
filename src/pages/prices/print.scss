@@ -1,0 +1,54 @@
+@media print {
+  hr {
+    display: none;
+  }
+  .Logo {
+    display: none;
+  }
+  .big_title {
+    color: black;
+    text-shadow: none;
+    font-weight: 900;
+    font-size: 2.5em;
+  }
+  .big_title::after {
+    content: " - Tarifs";
+  }
+  .page_link {
+    display: none;
+  }
+  .title_prices {
+    display: none;
+  }
+  .container_prices {
+    height: 100%;
+    overflow-y: visible;
+    border: none;
+    border-radius: none;
+    box-shadow: none;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    .paragraph_prices {
+      color: black;
+      font-weight: 400;
+      text-shadow: none;
+      margin: 12px;
+    }
+  }
+  .print_prices {
+    display: none;
+  }
+  .group_rates {
+    color: black;
+    text-shadow: none;
+  }
+  .text_print {
+    font-size: 20px;
+    text-align: right;
+    display: block;
+  }
+  footer {
+    display: none;
+  }
+}

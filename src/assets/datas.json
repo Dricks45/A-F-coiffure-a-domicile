@@ -2,110 +2,110 @@
   {
     "id": "1",
     "prestation": "Coupe homme",
-    "court": "12",
-    "long": "12"
+    "court": "12 €",
+    "long": "12 €"
   },
   {
     "id": "2",
     "prestation": "Coupe enfants",
-    "court": "10",
-    "long": "10"
+    "court": "10 €",
+    "long": "10 €"
   },
   {
     "id": "3",
     "prestation": "Shampooing - Brushing",
-    "court": "15",
-    "long": "20"
+    "court": "15 €",
+    "long": "20 €"
   },
   {
     "id": "4",
     "prestation": "Shampooing - Coupe - Brushing",
-    "court": "20",
-    "long": "25"
+    "court": "20 €",
+    "long": "25 €"
   },
   {
     "id": "5",
     "prestation": "Soin",
-    "court": "3",
-    "long": "3"
+    "court": "3 €",
+    "long": "3 €"
   },
   {
     "id": "6",
     "prestation": "Mis en plis",
-    "court": "18",
-    "long": "22"
+    "court": "18 €",
+    "long": "22 €"
   },
   {
     "id": "7",
     "prestation": "Couleur - Shampooing - Brushing",
-    "court": "45",
-    "long": "50"
+    "court": "45 €",
+    "long": "50 €"
   },
   {
     "id": "8",
     "prestation": "Couleur - Coupe - Shampooing - Brushing",
-    "court": "60",
-    "long": "65"
+    "court": "60 €",
+    "long": "65 €"
   },
   {
     "id": "9",
     "prestation": "Mèches - Shampooing - Brushing",
-    "court": "70",
-    "long": "75"
+    "court": "70 €",
+    "long": "75 €"
   },
   {
     "id": "10",
     "prestation": "Mèches - Shampooing - Coupe - Brushing",
-    "court": "80",
-    "long": "85"
+    "court": "80 €",
+    "long": "85 €"
   },
   {
     "id": "11",
     "prestation": "Balayage - Shampooing - Brushing",
-    "court": "50",
-    "long": "55"
+    "court": "50 €",
+    "long": "55 €"
   },
   {
     "id": "12",
     "prestation": "Balayage - Coupe - Shampooing - Brushing",
-    "court": "60",
-    "long": "65"
+    "court": "60 €",
+    "long": "65 €"
   },
   {
     "id": "13",
     "prestation": "Couleur - Mèches - Shampooing - Brushing",
-    "court": "85",
-    "long": "90"
+    "court": "85 €",
+    "long": "90 €"
   },
   {
     "id": "14",
     "prestation": "Couleur - Mèches - Coupe - Shampooing - Brushing",
-    "court": "95",
-    "long": "100"
+    "court": "95 €",
+    "long": "100 €"
   },
   {
     "id": "15",
     "prestation": "Permanente - Shampooing - Brushing",
-    "court": "39",
-    "long": "45"
+    "court": "39 €",
+    "long": "45 €"
   },
   {
     "id": "16",
     "prestation": "Permanente - Shampooing - Coupe - Brushing",
-    "court": "50",
-    "long": "55"
+    "court": "50 €",
+    "long": "55 €"
   },
   {
     "id": "17",
     "prestation": "Supplément produit",
-    "court": "5",
-    "long": "5"
+    "court": "5 €",
+    "long": "5 €"
   },
   {
     "id": "18",
     "prestation": "Supplément cheveux long",
-    "court": "10",
-    "long": "10"
+    "court": "10 €",
+    "long": "10 €"
   },
   {
     "id": "19",

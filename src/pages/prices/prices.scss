@@ -22,4 +22,17 @@
     font-weight: 600;
     text-shadow: 1px 1px 1px $blackColor;
   }
+  .print_prices {
+    color: $blackColor;
+    background-color: $orColor;
+    border-color: $blackColor;
+  }
+}
+.group_rates {
+  color: $orColor;
+  text-shadow: 1px 1px 1px $blackColor;
+  margin: 12px;
+}
+.text_print {
+  display: none;
 }
