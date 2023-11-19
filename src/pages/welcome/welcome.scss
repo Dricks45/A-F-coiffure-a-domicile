@@ -7,18 +7,45 @@
   padding-left: 5px;
   font-size: 14px;
 }
-.container_photo_home {
-  height: 280px;
+.center_picture {
+  width: 100vw;
+  height: calc(100vh - 310px);
   display: flex;
-  align-items: center;
   justify-content: center;
-  .photo_home {
-    height: 160px;
-    box-shadow: 10px 10px 4px -7px black;
+  flex-wrap: wrap;
+  align-content: center;
+  .animation_photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a262654;
+    border: 1px solid $orColor;
+    width: 250px;
+    height: 250px;
+    border-radius: 69% 31% 70% 30% / 30% 70% 30% 70%;
+    animation: photo_home 5s linear infinite;
+    @keyframes photo_home {
+      0%,
+      100% {
+        border-radius: 69% 31% 70% 30% / 30% 70% 30% 70%;
+      }
+      30% {
+        border-radius: 42% 58% 15% 85% / 65% 83% 17% 35%;
+      }
+      50% {
+        border-radius: 42% 58% 48% 52% / 77% 29% 71% 23%;
+      }
+    }
+    .container_photo_home {
+      height: 280px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .photo_home {
+        height: 160px;
+      }
+    }
   }
-}
-.set_up_welcome {
-  height: calc(100vh - 600px);
 }
 .info_contact {
   text-align: start;
