@@ -1,3 +1,5 @@
+@import "../../assets/variables";
+
 .flex_gallery {
   height: calc(100vh - 200px);
   .container_gallery {
@@ -8,6 +10,7 @@
     align-content: space-around;
     .picture_gallery {
       height: 110px;
+      box-shadow: 6px 6px 8px 2px $blackColor;
     }
   }
 }
