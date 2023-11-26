@@ -12,3 +12,7 @@ ajout de la dépendance React-router-dom.
 Le 05/11/2003
 
 instalation de axios en dépendance
+
+Le 26/11/2023
+
+fin du responsive sur mobile "ok pour Andéa qui valide le tout"
