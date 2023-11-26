@@ -20,8 +20,8 @@
     align-items: center;
     background-color: #2a262654;
     border: 1px solid $orColor;
-    width: 250px;
-    height: 250px;
+    width: 92%;
+    height: 69%;
     border-radius: 69% 31% 70% 30% / 30% 70% 30% 70%;
     animation: photo_home 5s linear infinite;
     @keyframes photo_home {
@@ -37,12 +37,12 @@
       }
     }
     .container_photo_home {
-      height: 280px;
+      height: calc(100vh - 310px);
       display: flex;
       align-items: center;
       justify-content: center;
       .photo_home {
-        height: 160px;
+        height: 40%;
       }
     }
   }
