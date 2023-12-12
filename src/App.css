@@ -47,7 +47,8 @@ hr {
 .redirect {
   display: inline-block;
   text-align: center;
-  width: 65px;
+  width: 78px;
+  font-weight: bold;
   text-decoration: none;
   color: #2a2626;
   border: 1px double #2a2626;

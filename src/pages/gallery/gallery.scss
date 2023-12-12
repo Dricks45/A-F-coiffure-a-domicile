@@ -9,7 +9,8 @@
     justify-content: space-around;
     align-content: space-around;
     .picture_gallery {
-      width: 45%;
+      max-height: 31%;
+      max-width: 45%;
       box-shadow: 6px 6px 8px 2px $blackColor;
     }
   }
