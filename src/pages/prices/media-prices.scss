@@ -1,0 +1,29 @@
+@import "../../assets/variables";
+@media screen and (min-width: 666px) {
+  .title_prices {
+    font-size: 2.5em;
+  }
+  .container_prices {
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    border-radius: 6px;
+    scrollbar-width: thin;
+    scrollbar-color: $orColor transparent;
+  }
+  .container_prices::-webkit-scrollbar {
+    width: 7px;
+  }
+  .container_prices::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .container_prices::-webkit-scrollbar-thumb {
+    background-color: $orColor;
+    border-radius: 10px;
+    border: 1px solid $blackColor;
+  }
+  .group_rates {
+    text-align: center;
+    font-size: 1.1em;
+  }
+}
