@@ -98,8 +98,8 @@ footer {
   }
 
   .big_title {
-    font-size: 3em;
-    margin-right: 16%;
+    font-size: 3rem;
+    margin-right: 20%;
   }
 
   hr {
@@ -122,14 +122,15 @@ footer {
     margin: 10px 0;
     width: 110px;
     font-size: 1.2rem;
+    border-radius: 10px 0 0 10px;
   }
 
   .redirect:hover {
-    transform: translateX(-75px);
+    transform: translateX(-71px);
     background-color: #a69814;
     color: #2a2626;
     border-color: #2a2626;
-    transition: 0.5s;
+    transition: 0.6s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .redirect_accueil::before {
@@ -149,5 +150,11 @@ footer {
 
   footer {
     width: 80%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .big_title {
+    font-size: 6rem;
   }
 }
