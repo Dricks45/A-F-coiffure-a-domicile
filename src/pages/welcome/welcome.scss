@@ -57,7 +57,7 @@
     margin: 0;
   }
   .phone_welcome::before {
-    content: url(../../images/16-tel.png);
+    content: url(../../assets/images/16-tel.png);
     margin: 0 5px;
     position: relative;
     top: 2px;
@@ -69,13 +69,13 @@
     display: block;
   }
   .email_welcome::before {
-    content: url(../../images/16-gmail.png);
+    content: url(../../assets/images/16-gmail.png);
     margin: 0 5px;
     position: relative;
     top: 2px;
   }
   .facebook_welcome::before {
-    content: url(../../images/16-facebook.png);
+    content: url(../../assets/images/16-facebook.png);
     margin: 0 5px;
     position: relative;
     top: 2px;
