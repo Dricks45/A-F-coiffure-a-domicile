@@ -9,7 +9,7 @@ body {
   padding: 0;
   height: 100vh;
   width: 100vw;
-  background-image: url(./images/photo_Andréa_1.jpg);
+  background-image: url(./assets/images/photo_Andréa_1.jpg);
   background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -134,17 +134,17 @@ footer {
   }
 
   .redirect_accueil::before {
-    content: url(./images/accueil-32.png);
+    content: url(./assets/images/accueil-32.png);
     padding-top: 1px;
   }
 
   .redirect_galerie::before {
-    content: url(./images/galerie-32.png);
+    content: url(./assets/images/galerie-32.png);
     padding-top: 1px;
   }
 
   .redirect_tarifs::before {
-    content: url(./images/euro-32.png);
+    content: url(./assets/images/euro-32.png);
     padding-top: 1px;
   }
 
