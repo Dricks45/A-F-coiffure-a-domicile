@@ -1,15 +1,12 @@
 import { Link, Outlet } from "react-router-dom";
 import "./App.css";
+import logo from "./assets/images/A_et_F.png";
 
 function App() {
   return (
     <>
       <header>
-        <img
-          className="Logo"
-          src="./src/images/A_et_F.png"
-          alt="logo de a&f coifure"
-        />
+        <img className="Logo" src={logo} alt="logo de a&f coifure" />
         <h1 className="big_title">A & F Coiffure à domicile</h1>
         <hr />
       </header>
