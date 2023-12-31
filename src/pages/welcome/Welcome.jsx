@@ -1,4 +1,5 @@
 import "./welcome.scss";
+import photoCouve from "../../assets/images/photo_A_P_couve_451.jpg";
 
 function Welcome() {
   return (
@@ -9,11 +10,7 @@ function Welcome() {
       <article className="center_picture">
         <div className="animation_photo">
           <div className="container_photo_home">
-            <img
-              className="photo_home"
-              src="../../src/images/photo_A_P_couve_451.jpg"
-              alt=""
-            />
+            <img className="photo_home" src={photoCouve} alt="" />
           </div>
         </div>
       </article>
