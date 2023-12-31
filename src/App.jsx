@@ -1,6 +1,6 @@
 import { Link, Outlet } from "react-router-dom";
 import "./App.css";
-import logo from "./assets/images/A_et_F.png";
+import logo from "./assets/A_et_F.png";
 
 function App() {
   return (
