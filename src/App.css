@@ -35,7 +35,7 @@ hr {
 }
 
 .outlet {
-  min-height: calc(100vh - 200px);
+  min-height: calc(100vh - 232px);
 }
 
 .page_link {
@@ -80,4 +80,41 @@ footer {
   color: #a69814;
   margin: 0;
   font-size: 0.8em;
+}
+
+@media screen and (min-width: 666px) {
+  body {
+    background-position: center;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Logo {
+    height: 175px;
+  }
+
+  .big_title {
+    font-size: 3em;
+    margin-right: 16%;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .page_link {
+    margin: 0;
+  }
+
+  .redirect {
+    width: 95px;
+    font-size: 1.2rem;
+  }
+  footer {
+    width: 80%;
+  }
 }
