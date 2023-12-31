@@ -15,13 +15,13 @@ function App() {
       </header>
       <main>
         <div className="page_link">
-          <Link className="redirect" to="/accueil">
+          <Link className="redirect redirect_accueil" to="/accueil">
             Accueil
           </Link>
-          <Link className="redirect" to="/galerie">
+          <Link className="redirect redirect_galerie" to="/galerie">
             Galerie
           </Link>
-          <Link className="redirect" to="/tarifs">
+          <Link className="redirect redirect_tarifs" to="/tarifs">
             Tarifs
           </Link>
         </div>

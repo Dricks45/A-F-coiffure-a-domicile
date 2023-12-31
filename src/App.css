@@ -108,12 +108,45 @@ footer {
 
   .page_link {
     margin: 0;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: -71px;
   }
 
   .redirect {
-    width: 95px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+    width: 110px;
     font-size: 1.2rem;
   }
+
+  .redirect:hover {
+    transform: translateX(-75px);
+    background-color: #a69814;
+    color: #2a2626;
+    border-color: #2a2626;
+    transition: 0.5s;
+  }
+
+  .redirect_accueil::before {
+    content: url(./images/accueil-32.png);
+    padding-top: 1px;
+  }
+
+  .redirect_galerie::before {
+    content: url(./images/galerie-32.png);
+    padding-top: 1px;
+  }
+
+  .redirect_tarifs::before {
+    content: url(./images/euro-32.png);
+    padding-top: 1px;
+  }
+
   footer {
     width: 80%;
   }
