@@ -9,7 +9,7 @@ function Prices() {
   useEffect(() => {
     // Utilisation d'Axios pour récupérer le fichier JSON
     axios
-      .get("../../src/assets/datas.json")
+      .get("/datas.json")
       .then((response) => {
         setData(response.data);
       })
