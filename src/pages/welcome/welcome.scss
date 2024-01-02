@@ -6,6 +6,7 @@
   margin: 5px 0;
   padding-left: 5px;
   font-size: 14px;
+  text-align: center;
 }
 .center_picture {
   width: 100vw;
@@ -51,9 +52,9 @@
   text-align: start;
   color: $blackColor;
   text-shadow: 1px 1px 10px $textShadow;
-  line-height: 28px;
+  line-height: 22px;
   .phone_welcome {
-    font-size: 16px;
+    font-size: 14px;
     margin: 0;
   }
   .phone_welcome::before {
@@ -63,7 +64,7 @@
     top: 2px;
   }
   .redirect_link {
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: none;
     color: $blackColor;
     display: block;
