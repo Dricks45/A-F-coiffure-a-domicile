@@ -2,7 +2,7 @@ Site pour une nouvelle entreprise de coiffure à domicile.
 
 *---------------------------------------------------------------------------*
 
-site céer avec React et Vite.
+site créer avec React et Vite.
 
 *---------------------------------------------------------------------------*
 
