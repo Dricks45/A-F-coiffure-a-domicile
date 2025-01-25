@@ -48,7 +48,7 @@ function Prices() {
         remise par forfait à partir de 3 personnes &quot;hors tarifs
         enfants&quot;.
       </p>
-      <p className="text_print">TEL : 07.82.32.11.79</p>
+      <p className="text_print">TEL : 06.71.83.68.87</p>
     </section>
   );
 }
