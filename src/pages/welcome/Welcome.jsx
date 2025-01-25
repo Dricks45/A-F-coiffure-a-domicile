@@ -15,7 +15,7 @@ function Welcome() {
         </div>
       </article>
       <article className="info_contact">
-        <p className="phone_welcome">07.82.32.11.79</p>
+        <p className="phone_welcome">06.71.83.68.87</p>
         <a
           className="email_welcome redirect_link"
           href="mailto:af.coiffure45@gmail.com"
